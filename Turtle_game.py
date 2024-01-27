@@ -7,12 +7,12 @@ from random import randint
 
 #window
 window = turtle.Screen()
-window.title("Turtle Race game made by Bhaskar Maity")
-turtle.bgcolor("cyan")
+window.title("Turtle Race game made by Sabyasachi Maity")
+turtle.bgcolor("#34cb71")
 turtle.speed()
 turtle.penup()
 turtle.setpos(-200,180)
-turtle.write("TURTLE RACE GAME\n BY BHASKAR MAITY",font=("Arial",30,"bold"))
+turtle.write("TURTLE RACE GAME\n BY SABYASACHI MAITY",font=("Arial",30,"bold"))
 turtle.pendown()
 
 
@@ -75,11 +75,11 @@ kim.pendown()
 
 #turtle run
 for turn in range(100):
-    ada.forward(randint(1,5))
-    bob.forward(randint(1,5))
-    jack.forward(randint(1,5))
-    Joe.forward(randint(1,5))
-    kim.forward(randint(1,5))
+    ada.forward(randint(1,7))
+    bob.forward(randint(1,7))
+    jack.forward(randint(1,7))
+    Joe.forward(randint(1,7))
+    kim.forward(randint(1,7))
 
   
   
